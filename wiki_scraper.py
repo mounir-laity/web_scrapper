@@ -8,7 +8,7 @@ soup = BeautifulSoup(source, "lxml")
 # On fait ça pour avoir le code html de la page dans un fichier pour facilement le visualiser
 with open("wiki_file.html", "w+", encoding="utf-8") as file:
     file.write(source)
-with open("countries.txt", "w+") as wiki_file:
+with open("countries.txt", "w+", encoding="utf-8") as wiki_file:
     table = soup.find("table", class_="wikitable")
     lines = 0
     for row in table.tbody.find_all("tr"):
