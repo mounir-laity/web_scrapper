@@ -9,6 +9,10 @@ __pycache__/
 *$py.class
 
 virtual_env/
+# txt files
+*.txt
+#html files
+*.html
 
 # C extensions
 *.so
