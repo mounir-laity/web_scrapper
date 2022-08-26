@@ -10,7 +10,7 @@ __pycache__/
 
 virtual_env/
 # txt files
-*.txt
+countries.txt
 #html files
 *.html
 
